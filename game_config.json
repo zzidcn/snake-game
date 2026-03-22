@@ -1,0 +1,42 @@
+{
+    "window": {
+        "width": 800,
+        "height": 600,
+        "title": "🐍 贪吃蛇游戏 - 增强版"
+    },
+    "game": {
+        "grid_size": 20,
+        "initial_speed": 10,
+        "speed_increment": 1,
+        "foods_per_speed_up": 3,
+        "initial_length": 3,
+        "max_speed": 25
+    },
+    "controls": {
+        "up": "K_UP",
+        "down": "K_DOWN", 
+        "left": "K_LEFT",
+        "right": "K_RIGHT",
+        "pause": "K_SPACE",
+        "restart": "K_r",
+        "menu": "K_m",
+        "quit": "K_ESCAPE",
+        "start": "K_RETURN"
+    },
+    "audio": {
+        "enabled": false,
+        "volume": 0.7,
+        "sound_effects": {
+            "eat": "sounds/eat.wav",
+            "game_over": "sounds/game_over.wav",
+            "level_up": "sounds/level_up.wav"
+        }
+    },
+    "graphics": {
+        "theme": "classic",
+        "show_grid": true,
+        "snake_colors": ["GREEN", "DARK_GREEN"],
+        "food_colors": ["RED", "YELLOW", "PURPLE", "ORANGE", "BLUE"]
+    },
+    "language": "zh"
+}
